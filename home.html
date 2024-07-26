@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href=" ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3745b57632.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.1001fonts.com/chopin-script-font.html?text=Welcome">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+
+
+<body>
+
+    <header id="head-nav">
+        <div class="loader">
+            <i class="fa-solid fa-globe fa-2x" style="color: #005eff; margin:0%;"></i>
+        </div>
+
+
+
+        <div class="span1">Get App</div>
+
+       
+        <div class="span3">New Trends</div>
+     
+
+        <div class="dropdown"><span class="span2">Learn How</span>
+          
+            <div class="dropdown-content"style=" margin: 3%; padding: 4%; word-wrap: break-word;" >
+                <p><a href="">Workstation Prep</a></p>
+                 
+                <p><a href="www.youtube.com">Lining</a></p>
+               <br>
+                <p><a href="">Shading</a></p>
+             
+                <p><a href="">Color Packing</a></p>
+             
+                <p><a href="">Aftercare</a></p>
+            </div>
+
+           
+        </div>
+        <br>
+        <div class="span4" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Signup</div>
+        <div class="span5">Contact</div>
+  
+    </header>
+
+   
+     
+    <img src="network.jpg" alt="" style="height:480px; border-bottom:solid 4px#2200ff;  width: 100%;display: block; object-fit: cover; 
+  margin: 0 auto;   ">
+
+
+    <div class="centered">
+
+        <h1 style="color: #ffee00; font-weight:600;">Welcome</h1>
+        <h2 style="font-family: 'Herr Von Muellerhoff', cursive; font-weight:600;font-size:30px;">To</h2>
+        <h2 class="sin-sty" style="text-decoration: none;">Sinners Choice Artful Studio</h2>
+        <p>Our revolutionary tattoo learning platform! We have integrated cutting-edge WebRTC technology to connect
+            aspiring tattoo artists with master tattoo professionals worldwide. Our platform provides a unique and
+            interactive learning experience, allowing you to receive personalized guidance and mentorship from the best
+            in the industry. Whether you're new to tattooing or looking to enhance your skills,S-Cas brings the art of
+            tattooing to your fingertips. Prepare to embark on an exciting journey of creativity, skill development, and
+            artistic expression.</p>
+    </div>
+
+
+    </div>
+ 
+    </div>
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post" id="signup-form"> 
+               <h2>Sign Up</h2>
+            <h2>Please fill in this form to create an account.</h2>
+            <hr>
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+         
+            <label for="uname" style="position:relative; left: 10%;"><b>Username <span
+                        class="red-asterisk">*</span></b></label>
+            <input type="text" placeholder="Enter Username" name="uname"
+                style="width: 80%; position:relative; left:10%; border-radius: 20px;;" required>
+
+            <label for="psw" style="position:relative; left: 10%;"><b>Password <span
+                        class="red-asterisk">*</span></b></label>
+            <input type="password" placeholder="Enter Password" name="psw"
+                style="width: 80%; position:relative; left:10%; border-radius: 20px;;" required>
+
+            <label for="psw" style="position:relative; left: 10%;"><b>Retype Password <span
+                        class="red-asterisk">*</span></b></label>
+            <input type="password" placeholder="Retype Password" name="psw"
+                style="width: 80%; position:relative; left:10%; border-radius: 20px;;" required>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember
+            </label>
+            <h2>Already have an account? <a href="#" onclick="toggleForms()">Click here</a></h2>
+            <h3>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</h3>
+            <button type="submit" class="submit"
+                style="width: 40%;height:10%; position:relative;border-radius:20px; left:55%; top:4%;">Submit</button>
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"
+                style="width: 40%; height:10%; position:relative; left:10%;bottom:5.5%; border-radius: 20px; ">Cancel</button>
+        </form>
+        <form class="modal-content animate" action="/action_page.php" method="post" style="display:none;"
+            id="login-form">
+            <h2>Login</h2>
+            <hr>
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+       
+            <label for="uname" style="position:relative; left: 5%;"><b>Username <span
+                        class="red-asterisk">*</span></b></label>
+            <input type="text" placeholder="Enter Username" name="uname"
+                style="width: 80%; position:relative; left:5%; border-radius: 20px;;" required>
+
+            <label for="psw" style="position:relative; left: 5%;"><b>Password <span
+                        class="red-asterisk">*</span></b></label>
+            <input type="password" placeholder="Enter Password" name="psw"
+                style="width: 80%; position:relative; left:5%; border-radius: 20px;;" required>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <hr>
+            <div class="log-btn">
+            <button type="submit" class="submit"
+                style="width: 30%;height:10%; position:relative;border-radius:20px; left:25%; top:10%;">Login</button>
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"
+                style="width: 30%; height:10%; position:relative; left:-60%;top:10%; border-radius: 20px; ">Cancel</button>
+        </div>
+            </form>
+    </div>
+    </div>
+
+
+    </section>
+    <div id="social-lnk">
+
+        <h3 style="font-size: 14px; padding:2%;">Follow Along</h3>
+        <div class="links" style="margin: 5%;">
+            <a href="#"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-pinterest fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i></a>
+        </div>
+
+</div> 
+     <div id="main">
+
+      <img src="art3.jpg" alt="" style="
+  box-shadow:  0px 2px 9px 1px rgb(0, 0, 0); border: 1px solid #ffee00;">
+      <img src="art4.jpg" alt="" style="
+  box-shadow:  0px 2px 9px 1px rgb(0, 0, 0); border: 1px solid #ffee00;">
+      <img src="art5.jpg" alt="" style="
+  box-shadow:  0px 2px 9px 1px rgb(0, 0, 0); border: 1px solid #ffee00;">
+      <img src="art6.jpg" alt="" style="
+  box-shadow:  0px 2px 9px 1px rgb(0, 0, 0); border: 1px solid #ffee00;">
+</div>
+   <div class="text1">
+  
+
+          <h1>"World&#9734;Wide"</h1>
+          <h2 style="color:black;">-Gallery-</h2> 
+          <h2 style="color:black;">Welcome to our tattoo art gallery. Here, you can explore the intricate beauty and compelling stories behind each tattoo. Our gallery celebrates the artistry, skill, and passion of talented tattoo artists from around the world. Each piece showcased here is a unique and masterful creation, reflecting diverse styles and narratives of the human experience. Whether you are an enthusiast, an artist, or someone seeking inspiration, we invite you to immerse yourself in the captivating world of tattoo art. 
+            Step into our gallery and experience the creativity and self-expression that comes to life on skin.</h2>
+          <div><a class="a-CTA" href="gallery.html">Enter</a></div>
+      </div>
+
+</div>
+     
+
+       
+
+<div class="fixed-image">
+    <div class="text" style="margin: 10%;">
+        <h1>“InkCraft”</h1>
+         <h2>  A Novice’s Odyssey into Tattoo Mastery</h2> 
+           <a href=""> How2 & Guidelines</a>
+      
+    </div>
+</div>
+
+    </div>
+
+
+</body>
+<footer>
+
+    Contact Info <br>
+    <address>
+        <div class="copyright">
+            <svg class="svg-up" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve">
+                <path fill="#262526"
+                    d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z">
+                </path>
+            </svg>
+
+            <ul class="info">
+                <li> © 2024 SINNER CHOICE ARTFUL STUDIO</li>
+                <li></li>
+                <li>Tel:</li>
+                <li>Revise with love by <a href="#">Recreation</a> Team</li>
+
+
+                <li><a href="#">PERMISSIONS AND COPYRIGHT</a></li>
+                <li><a href="#">CONTACT THE TEAM</a></li>
+            </ul>
+        </div>
+    </address>
+</footer>
+
+
+</html>
+<script>
+
+    function toggleForms() {
+        const signupForm = document.getElementById('signup-form');
+        const loginForm = document.getElementById('login-form');
+
+        // Check if the signup form is currently hidden
+        if (signupForm.style.display === 'none') {
+            // If hidden, show the signup form and hide the login form
+            signupForm.style.display = 'block';
+            loginForm.style.display = 'none';
+        } else {
+            // Otherwise, hide the signup form and show the login form
+            signupForm.style.display = 'none';
+            loginForm.style.display = 'block';
+        }
+    }
+
+
+    function openCity(cityName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(cityName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+
+
+</script>
